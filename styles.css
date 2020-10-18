@@ -93,7 +93,7 @@
 }
 :root {
   --primary: #c271ff;
-  --icon-color: #82D24F;
+  --icon-color: #82d24f;
   --white-color: #ffffff;
 }
 
@@ -328,7 +328,7 @@ p.small-text-p {
 }
 
 .bg-rimary {
-  background-color: var(--primary)!important;
+  background-color: var(--primary) !important;
 }
 
 input::placeholder {
@@ -351,7 +351,8 @@ input::placeholder {
   outline: none !important;
 }
 
-.dropdown-primary:focus, .dropdown-primary:active {
+.dropdown-primary:focus,
+.dropdown-primary:active {
   outline: none !important;
   box-shadow: none !important;
 }
@@ -364,13 +365,14 @@ label {
 .icon-lupa {
   position: absolute;
   z-index: 1;
-  top:50%;
+  top: 50%;
   left: 10px;
   transform: translateY(-50%);
   color: #ffffff;
 }
 
-#cards-carrousel-popular, #cards-carrousel-lastest {
+#cards-carrousel-popular,
+#cards-carrousel-lastest {
   display: flex;
   overflow: hidden;
 }
